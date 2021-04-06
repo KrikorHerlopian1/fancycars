@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:elevation="8dp"
+    android:paddingVertical="@dimen/spacing"
+    android:padding="@dimen/spacing">
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/spacing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:text="@string/check_availability"
+        android:padding="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/car_image"
+        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/car_make_model"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textColor="?android:textColorSecondary"
+        app:layout_constraintStart_toEndOf="@id/car_image"
+        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@id/car_name" />
+
+    <TextView
+        android:id="@+id/car_year"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing"
+        app:layout_constraintStart_toEndOf="@id/car_image"
+        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@id/car_make_model" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

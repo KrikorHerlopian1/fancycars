@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fancy Cars</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_availability">Sort by availablity</string>
+    <string name="check_availability">Check</string>
+    <string name="buy">Buy</string>
+    <string name="congratulations_buy">Congratulations for buying</string>
+    <string name="out_of_stock">Out of Stock</string>
+</resources>
