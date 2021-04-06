@@ -22,11 +22,11 @@ class CarBaseHelper(context: Context?) :
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        
+
     }
 
     companion object {
-        private val TAG = "CaraseHelper"
+        private val TAG = "CarBaseHelper"
         private val VERSION = 1
         private val DATABASE_NAME = "carBase.db"
     }
