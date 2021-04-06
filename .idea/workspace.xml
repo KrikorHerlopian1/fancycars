@@ -6,11 +6,15 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value=" -------- " />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14b729a-dc60-43ae-b13a-cd8f11890a6c" name="Default Changelist" comment="" />
+    <list default="true" id="b14b729a-dc60-43ae-b13a-cd8f11890a6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/krikorherlopian/fancycars/db/CarBaseHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/krikorherlopian/fancycars/db/CarBaseHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/krikorherlopian/fancycars/fragment/CarListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/krikorherlopian/fancycars/fragment/CarListFragment.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qlEEOIht6CUvoIynq6c0pCKelT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/anim" />
     <property name="memory.settings.postsync.last.time.stamp" value="1617645696217" />
@@ -147,26 +156,26 @@
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="534" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1680.961@0.25.1680.961" timestamp="1617667396054" />
-    <state width="1472" height="211" key="GridCell.Tab.0.bottom" timestamp="1617724808999">
-      <screen x="0" y="25" width="1680" height="959" />
+    <state width="1472" height="211" key="GridCell.Tab.0.bottom" timestamp="1617725116043">
+      <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="211" key="GridCell.Tab.0.bottom/0.25.1680.959@0.25.1680.959" timestamp="1617724808999" />
-    <state width="1472" height="211" key="GridCell.Tab.0.bottom/0.25.1680.961@0.25.1680.961" timestamp="1617723618094" />
-    <state width="1472" height="211" key="GridCell.Tab.0.center" timestamp="1617724808998">
-      <screen x="0" y="25" width="1680" height="959" />
+    <state width="1472" height="211" key="GridCell.Tab.0.bottom/0.25.1680.961@0.25.1680.961" timestamp="1617725116043" />
+    <state width="1472" height="211" key="GridCell.Tab.0.center" timestamp="1617725116043">
+      <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="211" key="GridCell.Tab.0.center/0.25.1680.959@0.25.1680.959" timestamp="1617724808998" />
-    <state width="1472" height="211" key="GridCell.Tab.0.center/0.25.1680.961@0.25.1680.961" timestamp="1617723618093" />
-    <state width="1472" height="211" key="GridCell.Tab.0.left" timestamp="1617724808997">
-      <screen x="0" y="25" width="1680" height="959" />
+    <state width="1472" height="211" key="GridCell.Tab.0.center/0.25.1680.961@0.25.1680.961" timestamp="1617725116043" />
+    <state width="1472" height="211" key="GridCell.Tab.0.left" timestamp="1617725116042">
+      <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="211" key="GridCell.Tab.0.left/0.25.1680.959@0.25.1680.959" timestamp="1617724808996" />
-    <state width="1472" height="211" key="GridCell.Tab.0.left/0.25.1680.961@0.25.1680.961" timestamp="1617723618092" />
-    <state width="1472" height="211" key="GridCell.Tab.0.right" timestamp="1617724808998">
-      <screen x="0" y="25" width="1680" height="959" />
+    <state width="1472" height="211" key="GridCell.Tab.0.left/0.25.1680.961@0.25.1680.961" timestamp="1617725116042" />
+    <state width="1472" height="211" key="GridCell.Tab.0.right" timestamp="1617725116043">
+      <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="211" key="GridCell.Tab.0.right/0.25.1680.959@0.25.1680.959" timestamp="1617724808998" />
-    <state width="1472" height="211" key="GridCell.Tab.0.right/0.25.1680.961@0.25.1680.961" timestamp="1617723618093" />
+    <state width="1472" height="211" key="GridCell.Tab.0.right/0.25.1680.961@0.25.1680.961" timestamp="1617725116043" />
     <state x="445" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1617721808763">
       <screen x="0" y="25" width="1680" height="961" />
     </state>

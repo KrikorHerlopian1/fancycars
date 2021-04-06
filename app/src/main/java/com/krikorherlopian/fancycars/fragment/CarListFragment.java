@@ -65,11 +65,10 @@ public class CarListFragment extends Fragment {
         CarListViewModel.Companion.getCar().observe(this, new Observer<CarRepoModel>() {
             @Override
             public void onChanged(CarRepoModel carRepoModel) {
-
+                CarListViewModel.Companion.createDb(rootView.getContext());
                 if(carRepoModel.getThrowable() != null){
                     Toast.makeText(getContext(), carRepoModel.getThrowable().getMessage(),
                             Toast.LENGTH_SHORT).show();
-                    CarListViewModel.Companion.createDb(rootView.getContext());
                     carList = CarListViewModel.Companion.readCars();
                     binding.progress.setVisibility(View.GONE);
                     binding.recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -78,7 +77,6 @@ public class CarListFragment extends Fragment {
                 }
                 else{
                     carList = carRepoModel.getCarList();
-                    CarListViewModel.Companion.createDb(rootView.getContext());
                     CarListViewModel.Companion.deleteCars();
                     CarListViewModel.Companion.writeCar(carList);
                     binding.progress.setVisibility(View.GONE);
